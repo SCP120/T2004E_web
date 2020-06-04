@@ -1,0 +1,32 @@
+body{
+    font-family: 'Arimo', sans-serif;
+
+    margin-left: 600px;
+    margin-top: 100px;
+}
+hai{
+    text-align: justify-all;
+}
+scp{
+    word-spacing: 1px;
+}
+hai{
+    word-spacing: 50px;
+}
+cbn{
+    font-size: small;
+
+
+}
+hai1{
+    font-size: 100px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    line-height: 200px;
+    text-decoration: none;
+    text-align: center;
+    color: #aa353f;
+    background-color: white;
+    border-bottom: 1px solid navy;
+
+}
