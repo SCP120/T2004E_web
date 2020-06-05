@@ -1,0 +1,23 @@
+body{
+    font-family: 'Arimo', sans-serif;
+}
+gachchan{
+    border-bottom: 1px solid purple;
+    color: purple;
+    font-size: x-large;
+}
+hai{
+    font-size: medium;
+}
+Kn{
+    position: absolute;
+    right: 1400px;
+    word-spacing: 1px;
+}
+
+scp{
+   position: absolute;
+    right: 1000px;
+    word-spacing: 1px;
+
+}
