@@ -1,0 +1,74 @@
+body{
+    background-color: silver;
+    padding: 5px 15px 10px 0;
+}
+.thehinh{
+    padding: 15px 12px;
+    float: left;
+    box-sizing: border-box;
+    margin: 15px;
+    width: 70%;
+    height: 150px;
+    background-image: url("../imgs/01ass3.jpg");
+    background-size: cover;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: Arial;
+
+
+}
+nho{
+    font-size: small;
+}
+
+.thedoc{
+
+    padding: 30px 12px 15px 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    float: right;
+    box-sizing: border-box;
+    width: 25%;
+    height: 489px;
+    background-color: white;
+}
+.thengang{
+    padding: 30px 12px 15px 20px;
+    float: left;
+    box-sizing: border-box;
+    margin: 15px;
+    width: 70%;
+    height: auto;
+    background-color: white;
+}
+.tieude{
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+.hcn{
+    font-size: large;
+    color: white;
+    padding: 10px;
+    /*justify-content: center;*/
+    width: 150px;
+    height: auto;
+    background-color: red;
+    text-align: center;
+
+}
+.chu{
+    font-weight: lighter;
+    font-size: medium;
+    font-family: Arial;
+    line-height: 2;
+}
+.fix{
+    height: 410.2px;
+}
+top{
+    vertical-align: top;
+    font-family: Arial;
+    font-weight: lighter;
+
+}
