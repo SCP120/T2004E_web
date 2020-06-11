@@ -5,3 +5,21 @@ body{
 h1{
     color: #00000060;
 }
+.thedoc {
+
+    padding: 30px 12px 15px 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    float: left;
+    box-sizing: border-box;
+    width: 20%;
+    height: auto;
+    background-color: silver;
+    opacity: 0.4;
+}
+.chu{
+    font-weight: lighter;
+    font-size: x-large;
+    font-family: Arial;
+    line-height: 3;
+}
