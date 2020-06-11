@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400px;
+    line-height: 1.7;
+    background-color: #f2f2f2;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.header,.main,.footer{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+    width: 20%;
+}
+.right{
+    float: right;
+    width: 60%;
+}
+.content{
+    float: left;
+    width: 70%;
+}
+.sidebar{
+    float: right;
+    width: 30%;
+}
+.header{
+    padding: 20px 0;
+    background-color: white;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+}
+.menu >li{
+    float: right;
+    margin-left:30px;
+    list-style: none;
+    padding: 5px 0;
+}
+.menu li:first-child{
+    list-style: none;
+}
+.menu li a {
+    float: left;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #333333;
+    font-weight: 600;
+}
+.thehinh,.thengang,.thedoc{
+    padding: 30px 15px;
+    margin: 25px 25px 25px 0;
+}
+.thehinh{
+    margin-top: 15px;
+    padding-right: 100px;
+    background-color: brown;
+    float: left;
+}
+.chutrang{
+
+    color: white;
+    font-size: 25px;
+}
+.to{
+    color: white;
+    font-size: 15px;
+}
+.thengang{
+    background-color: white;
+    float: left;
+
+
+}
+.tieude{
+    font-size:40px ;
+}
+.nho{
+    font-size: 15px;
+    color: silver;
+}
+.chu{
+    font-size: 15px;
+}
+.hcn {
+    font-size: large;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    height: auto;
+    background-color: red;
+    text-align: center;
+}
+.thedoc{
+    background-color: white;
+    float: left;
+    padding: 30px;
+    margin-right: 0px;
+    width: 100%;
+
+}
+.the1{
+
+    margin-top: 15px;
+
+}
+top{
+    vertical-align: top;
+    font-size: 15px;
+}
+.thedoc a{
+    color: #333333;
+}
+.hcn, a{
+    color: white;
+}
+.theduoi{
+    width: 100%;
+}
