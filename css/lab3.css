@@ -83,8 +83,9 @@ scp{
     /*border-right: 50px solid red;*/
     border-top: 70px solid red;
     right: 0;
-    border-radius:  5px;
+    border-radius:  3px;
     vertical-align: middle;
+    position: relative;
 }
 .do{
     background-color: red;
@@ -111,4 +112,15 @@ xanh{
     background-color: red;
     border-radius: 5px;
     margin: 0 20% 10% 20% ;
+}
+chu{
+    position: absolute;
+    left: -35px;
+    bottom: 35px;
+    transform: rotate(45deg);
+    color: white;
+    font-weight: bold;
+}
+.trongsuot{
+    border-top: 70px solid transparent;
 }
