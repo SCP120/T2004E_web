@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.7px;
+    font-weight: 400px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.header,.main,.footer{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.home{
+    height: 80px;
+    padding: 15px 20px 30px 30px;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px solid #eceded;
+}
+.chubac,a{
+    color: #b4b4b4;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.scp{
+    color: #333333;
+}
+.mid{
+    background-color: #2fdab8;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    left: 49%;
+    bottom: 30px;
+}
+
+.left{
+    vertical-align: -20px;
+    width: 30%;
+    position: absolute;
+    top: 20px;
+}
+button{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin: auto;
+    cursor: pointer;
+    margin: auto;
+    background-color: #2fdab8;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: #2fdab8;
+    background-size: 40px 40px;
+    background-image: url("../imgs/arrows-icons.png");
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.right{
+    float: right;
+    width: 35%;
+    vertical-align: middle;
+    position: relative;
+}
+.search{
+    height: 30px;
+    padding: 5px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    color: #ababab;
+}
+ul > li{
+    float: left;
+    list-style: none;
+    margin-left:30px;
+}
+.chinh{
+    padding: 15px 0;
+    color: #ababab;
+}
+.oxanh{
+    height: 30px;
+    padding: 15px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: #2fdab8;
+    color: white;
+    text-align: center;
+}
+.slogan{
+    background-color: #96f8e3;
+    height: 200px;
+    border-bottom: 1px solid #84dfcd;
+    position: relative;
+}
+.sloganto{
+    position: absolute;
+    left: 27%;
+    bottom: 50%;
+    color: #427067;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.chucnang{
+    background-color: #96f8e3;
+    height: 100px;
+    border-bottom: 1px solid #eceded ;
+    position: relative;
+}
+.box ,.a{
+    padding-top: 50px;
+    width: 33%;
+    height: 100px;
+
+    font-weight: lighter;
+    text-align: center;
+    font-size: 23px;
+    color: #5ba397;
+
+
+}
+.boxtrai{
+    float: left;
+    border-right: 1px solid #84dfcd ;
+}
+.boxphai{
+    float: right;
+    border-right :1px solid transparent ;
+}
+.boxgiua{
+    position: absolute;
+    left: 35%;
+    border-right: 1px solid #84dfcd ;
+}
+.chubac > .chu{
+    position: absolute;
+    bottom: 10%;
+    font-size: 17px;
+}
+.Trending{
+    color: #333333;
+}
+.trangthai{
+    width: 100%;
+    position: relative;
+    height: 70px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.muahang{
+    float: left;
+    margin: 20px ;
+    width: 30%;
+    background-color: white;
+    height: 400px;
+}
+.tien{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    width: 30%;
+    height: 60px;
+    padding: 30px;
+    color: white;
+    background-color: #2fdab8;
+
+}
+.hinh{
+    width: 100%;
+    height: 200px;
+    padding: 0px 95px;
+}
+.chuatien{
+    width: 100%;
+    height: 60px;
+    margin-bottom:10px ;
+}
+.duoi{
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+
+}
+
+.round{
+    top: 60%;
+    float: left;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url("../imgs/02lab3.jpg") ;
+    overflow: hidden;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    align-content:center ;
+    border: 2px solid white;
+    z-index: 10;
+
+
+}
+.chu1,.ass404,.ass405,.ass406{
+    z-index: 9;
+    position: absolute;
+    position: relative;
+    left: 9%;
+}
+.chu1{
+
+    background-image: none;
+    left: 11%;
+    background-color: white;
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 10px;
+}
+chu{
+    position: absolute;
+    top:50%;
+    right: 50%;
+}
+.ass403{
+    background-image: url("../imgs/03ass4.jpg");
+   }
+.ass404{
+    background-image: url("../imgs/04ass4.jpg");
+}
+.ass405{
+    background-image: url("../imgs/05ass4.jpg");
+    z-index: 8;
+    left: 8%;
+}
+.ass406{
+    background-image: url("../imgs/06ass4.jpg");
+    z-index: 7;
+    left: 6%;
+}
+.tien1{
+    font-size: 20px;
+    padding-left: 0px;
+
+}
+.anhdb{
+    right: 15px;
+    top: 10px;
+    padding: 0px;
+    position: absolute;
+}
+.tien2{
+    color: #ababab;
+    padding: 10px;
+    height: 60px;
+    float: left;
+    width: 45%;
+    background-color: white;
+}
+.chuatien1{
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    width: 30%;
+    height: 60px;
+    background-color: #2fdab8;
+    color: white;
+}
+.chuatien1 > .tien3{
+    position: relative;
+    padding: 10px;
+    float: right;
+    padding: 10px;
+    height: 60px;
+    width: 55%;
+}
+bn{
+    position: absolute;
+    top: 27px;
+    right: 20px;
+}
+.muahang1{
+    position: relative;
+    width: 390px;
+    height: 400px;
+    background-color: #b4b4b4;
+    opacity: 0.3;
+    position: absolute;
+    top: 88.5%;
+    left: 61%;
+    padding: 10px;
+}
+chucuoi{
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-weight: lighter;
+    left: 15%;
+    top: 50%;
+}
