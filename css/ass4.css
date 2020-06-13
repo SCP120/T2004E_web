@@ -118,6 +118,7 @@ ul > li{
     color: #427067;
     font-size: 50px;
     font-weight: lighter;
+    cursor: pointer;
 }
 .chucnang{
     background-color: #96f8e3;
@@ -171,6 +172,7 @@ ul > li{
     width: 30%;
     background-color: white;
     height: 400px;
+    cursor: pointer;
 }
 .tien{
     position: relative;
