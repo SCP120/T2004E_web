@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 100px;
+    height: 950px;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 1.5;
+    margin: 20px 0;
+
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 650px;
+    color: #b4b4b4;
+    margin: 0 auto;
+}
+.black{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 650px;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+.than{
+    width: 650px;
+    height: auto;
+    background-color: white;
+    padding:50px ;
+    float: left;
+    color: #696969;
+    margin-bottom:10px ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.box{
+    width: 100%;
+    height:50px;
+}
+.thongtin{
+    float: left;
+    width: 20%;
+    color: #595859;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+.nhap{
+    width: 30%;
+    float: left;
+    font-size: 13px;
+    margin-right: 15px;
+}
+.text{
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+.text:focus{
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
+    background-color: lightblue;
+}
+.company{
+    width: 60%;
+}
+.areacode{
+    width: 15%;
+    margin-right: 15px;
+}
+.subject:focus{
+    background-color: #e7e7e7;
+}
+.subject{
+    width: 100%;
+}
+.email,.congty{
+    width: 100%;
+}
+.end{
+    margin-bottom: 30px;
+}
+.theyesno{
+    width: 25%;
+    margin-top: 10px;
+    background-color:#e7e7e7 ;
+    margin-bottom: 20px;
+}
+.no{
+    float: right;
+}
+.yes{
+    float: left;
+}
+.gt{
+    color:#595859 ;
+    font-weight: bold;
+}
+.button{
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    border-radius: 5px;
+    width: 22%;
+    padding: 10px;
+    color: white;
+    background-color:#fc4c5a;
+    border: none;
+}
+
