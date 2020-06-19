@@ -18,7 +18,7 @@
         let sove=prompt("nhập số vé bạn muốn mua");
         for (let i=0;i<sove;i++){
             for (let z=0;z<5;z++){
-                y[z]=prompt("nhap so: "+(z+1));
+                y[z]=prompt("nhập số "+(z+1));
                 console.log(y);
                 for (let e=0;e>=0;e++) {
                     if (y[z] >= 60 || y[z]<=0 ) {
@@ -35,7 +35,7 @@
                         continue;
                     }
                     while(y[z]==y[e]){
-                        y[e]= prompt("nhập sai, xin nhập lại số " + (e+1));
+                        y[e]= prompt("nhập trùng, xin nhập lại số " + (e+1));
                         console.log(y);
                     }
                 }
@@ -68,7 +68,9 @@
             if (n==5&&h!=5){
                 alert("chúc mừng bạn trúng giải nhất");
             }
-        
+            if (n<3){
+                alert("chúc bạn may mắn lần sau");
+            }
 
 
 
