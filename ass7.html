@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XSKT</title>
+</head>
+<body>
+    <script type="text/javascript">
+        alert("chào mừng bạn đến với vietlot");
+        let x=[];
+        let h=0;
+        let n=0;
+        for (let z=0;z<5;z++){
+            x[z]=parseInt(Math.random()*60);
+        }
+        console.log(x);
+        let y=[];
+        let sove=prompt("nhập số vé bạn muốn mua");
+        for (let i=0;i<sove;i++){
+            for (let z=0;z<5;z++){
+                y[z]=prompt("nhap so: "+(z+1));
+                console.log(y);
+                for (let e=0;e>=0;e++) {
+                    if (y[z] >= 60 || y[z]<=0 ) {
+                        y[z] = prompt("nhập sai, xin nhập lại số " + (z+1));
+                        console.log(y);
+                    }else {
+                        break;
+                    }
+                }
+            }
+            for (let z=0;z<5;z++){
+                for (let e=0;e<5;e++){
+                    if(z==e){
+                        continue;
+                    }
+                    while(y[z]==y[e]){
+                        y[e]= prompt("nhập sai, xin nhập lại số " + (e+1));
+                        console.log(y);
+                    }
+                }
+            }
+            for (let z=0;z<5;z++){
+                y[z]=parseInt(y[z]);
+                if(y[z]==x[z]){
+                    h++;
+                    h=parseInt(h);
+                    console.log(h);
+                }
+                if (h==5){
+                    alert("chúc mừng bạn đã trúng giải đặc biệt")
+                }
+            }
+            for (let z=0;z<5;z++){
+                for (let e=0;e<5;e++){
+                    if(y[z]==x[e]){
+                        n=n+1;
+                        console.log(n);
+                    }
+                }
+            }
+            if(n==3){
+                alert("chúc mừng bạn trúng giải 3");
+            }
+            if (n==4){
+                alert("chúc mừng bạn trúng giải nhì");
+            }
+            if (n==5&&h!=5){
+                alert("chúc mừng bạn trúng giải nhất");
+            }
+        
+
+
+
+        }
+    </script>
+</body>
+</html>
