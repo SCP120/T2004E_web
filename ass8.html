@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ass8</title>
+</head>
+<body>
+<h1><span id="tp">Tên thành phố: </span>&emsp; <span id="qg">Quốc gia: </span></h1>
+<h2 id="temp">Nhiệt độ:  </h2>
+<h3><span id="maxtemp">Nhiệt độ cao nhất: </span>&emsp;<span id="mintemp">Nhiệt độ thấp nhất: </span></h3>
+<h2 id="press">Áp suất: </h2>
+<h2 id="humid">Độ ẩm: </h2>
+<h2 id="sealv">Mực nước biển: </h2>
+<h2 id="spdwind">Tốc độ gió: </h2>
+
+
+<script type="text/javascript">
+    var currentWeather = {
+        coord:{
+            lon:139.01,
+            lat:35.02
+        },
+        weather:
+            [
+                {
+                    id :800,
+                    main : "Clear" ,
+                    description : "clear sky , icon : 01n"
+                }
+            ],
+        base : "stations",
+        main :{
+            temp :285.514,
+            pressure :1013.75,
+            humidity :100,
+            temp_min :285.514,
+            temp_max :285.514,
+            sea_level :1023.22,
+            grnd_level :1013.75
+        },
+        wind :{
+            speed :5.52,
+            deg :311
+        },
+        clouds :{
+            all :0
+        },
+        dt :1485792967,
+        sys :{
+            message :0.0025,
+            country : "JP" ,
+            sunrise :1485726240,
+            sunset :1485763863
+        },
+        id :1907296,
+        name : "Tawarano",
+        cod :200
+    }
+
+let tp=document.getElementById("tp");
+    tp.innerText=tp.innerText+ currentWeather.name;
+let qg=document.getElementById("qg");
+currentWeather.sys.country= "Nhật Bản";
+qg.innerText=qg.innerText + currentWeather.sys.country;
+let tmp=document.getElementById("temp");
+currentWeather.main.temp=parseInt(currentWeather.main.temp-273.15);
+tmp.innerText=tmp.innerText+ currentWeather.main.temp+ " độ C";
+let  maxtemp=document.getElementById("maxtemp");
+currentWeather.main.temp_max=parseInt(currentWeather.main.temp_max-273.15);
+maxtemp.innerText=maxtemp.innerText +currentWeather.main.temp_max+ "độ C";
+let  mintemp=document.getElementById("mintemp");
+currentWeather.main.temp_min=parseInt(currentWeather.main.temp_min-273.15);
+mintemp.innerText=mintemp.innerText+ currentWeather.main.temp_min+ "độ C";
+let press=document.getElementById("press");
+press.innerText=press.innerText+currentWeather.main.pressure +" mbar";
+let sealv=document.getElementById("sealv");
+sealv.innerText=sealv.innerText+currentWeather.main.sea_level +" m";
+let spdwind=document.getElementById("spdwind");
+spdwind.innerText=spdwind.innerText+currentWeather.wind.speed+ " km/h";
+let humid=document.getElementById("humid");
+humid.innerText=humid.innerText+currentWeather.main.humidity +" %";
+
+
+
+</script>
+
+</body>
+</html>

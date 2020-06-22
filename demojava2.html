@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo js 2</title>
+</head>
+<body>
+<h1 id="heading">Tên lớp</h1>
+<h2 id="sub_head">GV</h2>
+<ul id="hs">
+
+</ul>
+
+    <script type="text/javascript">
+        let obj={
+            name:"Nguyễn văn A",
+            age:10,
+            address:"* tôn thất huyết",
+            run:function () {
+                console.log(this.name+  "running");
+            },
+            children: {
+                name: "Nguyễn Văn B",
+                ngaysinh:"22-5-1990",
+                children: {
+                    name:"Nguyễn Văn C",
+                    eat:function () {
+                        console.log("uong sua");
+                        return this;
+                    },
+                    sleep:function () {
+                        console.log("Ngủ");
+                        return this;
+                    },
+                },
+                girl:[
+                    "ngọc trinh",
+                ],
+                hotel: function () {
+                    this.girl.map(function (e) {
+                        console.log("đi hotel với " + e);
+
+                    })
+                },
+
+
+            },
+        };
+        console.log(obj.name);
+        obj.run();
+        console.log(obj.children.name);
+        obj.children.children.eat().sleep();
+        obj.name="Nguyễn Văn C";
+
+        let cla={
+            name: "T2004E",
+            place: "C8",
+            teacher: {
+                name:"Nguyễn QUang Hòa",
+                dayhoc:function () {
+                    console.log("dạy học");
+                },
+                age: 35,
+                sex: "male",
+            },
+            DSSV:[
+                 {
+                    name:"Lê Thanh Hiếu",
+                    Age:"10",
+
+                },
+                {
+                    name: "Lê Thanh Hiếu",
+                    Age: "10",
+
+                },
+                {
+                    name: "Lê Thanh Hiếu",
+                    Age: "10",
+
+                },
+                {
+                    name: "Lê Thanh Hiếu",
+                    Age: "10",
+
+                },
+                {
+                    name: "Lê Thanh Hiếu",
+                    Age: "10",
+
+                },
+                {
+                    name: "Lê Thanh Hiếu",
+                    Age: "10",
+
+                },
+            ],
+        }
+
+        //lấy đổi tượng id
+        let h1 =document.getElementById("heading");
+        // console.log(h1.innerText);
+        // h1.innerText ="Xin chào";
+        // h1.style.color="red";
+        // h1.style.backgroundColor= "yellow";
+        // h1.style.borderBottom="1px solid green";
+        h1.innerText=h1.innerText+ cla.name;
+        let h2_s1=document.getElementById("sub_head");
+        h2_s1.innerText=h2_s1.innerText+ cla.teacher.name;
+        let ul=document.getElementById("hs");
+        cla.DSSV.map(function (e) {
+            let li="<li>"+e.name+"</li>";
+            ul.innerHTML=ul.innerHTML+li;
+
+        });
+
+
+
+    </script>
+
+</body>
+</html>
