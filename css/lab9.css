@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400px;
+    line-height: 1.7;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    color: #b4b4b4;
+    margin: 0 auto;
+}
+.left{
+    width: 100%;
+    padding: 20px 5px;
+    font-size: xx-large;
+    color: #595859;
+    font-weight: normal;
+}
+.box{
+    height: 200px;
+    width: 100%;
+}
+.box1>li{
+    width: 19%;
+    float: left;
+
+    list-style: none;
+
+}
+.box1>li>button{
+    color: #ababab;
+    font-weight: lighter;
+    background-color: white;
+    width: 100%;
+    align-content: center;
+    padding: 20px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #b4b4b4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px ;
+}
+.box1>li> button:focus{
+    color: #595859;
+    border-top:1px solid #b4b4b4 ;
+    border-left:1px solid #b4b4b4 ;
+    border-right: 1px solid #b4b4b4;
+    border-bottom: none;
+    background-color: white;
+}
+.box1>li> button:hover{
+    background-color: #eee;
+
+}
+.box1{
+    height: 60px;
+    width: 100%;
+}
+.box3{
+    float: right;
+    width: 24%;
+    border-bottom: 1px solid #b4b4b4;
+    height: 57px;
+}
+.box4{
+    height: 140px;
+    width: 100%;
+    position: relative;
+}
+#home,#profile,#Mess,#Set{
+    color: #595859;
+    width: 50%;
+    padding: 10px 5px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}

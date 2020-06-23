@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form dtaa</title>
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link rel="stylesheet" type="text/css" href="fonts/fontsawsome/css/all.css">
+</head>
+<body>
+    <form method="get" action="#">
+        <p><i class="fal fa-adjust"></i></p>
+        <input type="text" class="input-text" name="username" placeholder="Username.." required/>
+        <input type="email" class="input-text" name="email" placeholder="email" required/>
+        <input type="password" name="password" placeholder="password" required/>
+        <label><input type="checkbox" name="ready"/>I'm ready</label>
+        <label><input type="radio" name="sex" value="male"/>male</label>
+        <label><input type="radio" name="sex" value="female"/>female</label>
+        <label><input type="radio" name="sex" value="other"/>other</label>
+        <input type="date" name="brithday" placeholder="ngày sinh"/>
+        <input type="time" name="tg" placeholder="thời gian"/>
+        <input type="number" name="money" placeholder="tien"/>
+        <input type="range" name="range"  min="0" max="100" placeholder="volumes" />
+        <input type="file" name="avatar" placeholder="avatar"/>
+        <input type="hidden" name="token" value="server_token"/>
+        <select name="faculty">
+            <option value="toan">Toán</option>
+            <option value="van">Văn</option>
+            <option value="cntt">CNTT</option>
+            <option value="anh">Anh</option>
+        </select>
+        <textarea name="tieusubanthan" cols="100" rows="5" placeholder="Tiểu sử">
+
+        </textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

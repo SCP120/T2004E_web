@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab9</title>
+    <link rel="stylesheet" type="text/css" href="css/lab9.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="left">
+                Xác định vị trí trong tabs
+            </div>
+        </div>
+    </header>
+
+<section class="main">
+    <div class="container">
+        <div class="box">
+        <ul class="box1">
+            <li><button onclick="home()">Home</button></li>
+            <li><button onclick="profile()">Profile</button></li>
+            <li><button onclick="Mess()">Mess</button></li>
+            <li><button onclick="Set()">Settings</button></li>
+            <div class="box3" >
+            </div>
+        </ul>
+
+        <div class="box4">
+        <div id="home">This is home
+        </div>
+            <div id="profile">This is profile</div>
+            <div id="Mess">This is Mess</div>
+            <div id="Set">This is set</div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+    </div>
+    <script type="text/javascript">
+
+        window.onload=function onload() {
+            document.getElementById("home").style.opacity = 0;
+            document.getElementById("profile").style.opacity = 0;
+            document.getElementById("Mess").style.opacity = 0;
+            document.getElementById("Set").style.opacity = 0;
+
+        }
+        function home() {
+            document.getElementById("home").style.opacity = 1;
+            document.getElementById("profile").style.opacity = 0;
+            document.getElementById("Mess").style.opacity = 0;
+            document.getElementById("Set").style.opacity = 0;
+        }
+        function profile() {
+            document.getElementById("home").style.opacity = 0;
+            document.getElementById("profile").style.opacity = 1;
+            document.getElementById("Mess").style.opacity = 0;
+            document.getElementById("Set").style.opacity = 0;
+
+        }
+        function Mess() {
+            document.getElementById("home").style.opacity = 0;
+            document.getElementById("profile").style.opacity = 0;
+            document.getElementById("Mess").style.opacity = 1;
+            document.getElementById("Set").style.opacity = 0;
+        }
+        function Set() {
+            document.getElementById("home").style.opacity = 0;
+            document.getElementById("profile").style.opacity = 0;
+            document.getElementById("Mess").style.opacity = 0;
+            document.getElementById("Set").style.opacity = 1;
+
+        }
+    </script>
+</footer>
+</body>
+</html>
